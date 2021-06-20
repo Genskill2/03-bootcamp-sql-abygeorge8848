@@ -6,8 +6,7 @@ CREATE TABLE publisher(
 CREATE TABLE books(
 	id INTEGER PRIMARY KEY,
 	title text,
-	publisher serial REFERENCES publisher(id)
-	);
+	publisher serial REFERENCES publisher(id));
 	
 
 CREATE TABLE subjects(
@@ -16,8 +15,7 @@ CREATE TABLE subjects(
 
 CREATE TABLE books_subjects(
 	book INTEGER REFERENCES subjects(id), 
-	subject INTEGER REFERENCES books(id)
-	);
+	subject INTEGER REFERENCES books(id));
 	
 
 
