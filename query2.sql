@@ -1,1 +1,1 @@
-SELECT  b.title, p.name FROM books b INNER JOIN publisher p WHERE b.publisher = p.id AND p.country IN ('UK');
+SELECT  books.title, publisher.name FROM books INNER JOIN publisher ON books.publisher = publisher.id AND publisher.country IN ('UK');
