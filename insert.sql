@@ -1,9 +1,9 @@
-INSERT INTO publisher(id, name, country) VALUES ('PHI', 'India');
-INSERT INTO publisher(id, name, country) VALUES (1, 'Harper', 'USA');
-INSERT INTO publisher(id, name, country) VALUES (2, 'GCP', 'USA');
-INSERT INTO publisher(id, name, country) VALUES (3, 'Avery', 'USA');
-INSERT INTO publisher(id, name, country) VALUES (4, 'Del Rey', 'UK');
-INSERT INTO publisher(id, name, country) VALUES (5, 'Vintage', 'UK');
+INSERT INTO publisher(id, name, country) VALUES (1, 'PHI', 'India');
+INSERT INTO publisher(id, name, country) VALUES (2, 'Harper', 'USA');
+INSERT INTO publisher(id, name, country) VALUES (3, 'GCP', 'USA');
+INSERT INTO publisher(id, name, country) VALUES (4, 'Avery', 'USA');
+INSERT INTO publisher(id, name, country) VALUES (5, 'Del Rey', 'UK');
+INSERT INTO publisher(id, name, country) VALUES (6, 'Vintage', 'UK');
 
 INSERT INTO books (id, title, publisher) VALUES (1, 'The C Programming Language', 1);
 INSERT INTO books (id, title, publisher) VALUES (2, 'The Go Programming Language', 1); 
