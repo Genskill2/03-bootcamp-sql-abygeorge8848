@@ -6,7 +6,7 @@ CREATE TABLE publisher(
 CREATE TABLE books(
 	id INTEGER PRIMARY KEY,
 	title text,
-	publisher serial REFERENCES publisher(id));
+	publisher INTEGER REFERENCES publisher(id));
 	
 
 CREATE TABLE subjects(
