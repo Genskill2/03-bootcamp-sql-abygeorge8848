@@ -1,3 +1,10 @@
+INSERT INTO publisher(name, country) VALUES ('PHI', 'India');
+INSERT INTO publisher(name, country) VALUES ('Harper', 'USA');
+INSERT INTO publisher(name, country) VALUES ('GCP', 'USA');
+INSERT INTO publisher(name, country) VALUES ('Avery', 'USA');
+INSERT INTO publisher(name, country) VALUES ('Del Rey', 'UK');
+INSERT INTO publisher(name, country) VALUES ('Vintage', 'UK');
+
 INSERT INTO subjects (name) VALUES ('C'); 
 INSERT INTO subjects (name) VALUES ('UNIX'); 
 INSERT INTO subjects (name) VALUES ('Go'); 
@@ -7,15 +14,6 @@ INSERT INTO subjects (name) VALUES ('Productivity');
 INSERT INTO subjects (name) VALUES ('History'); 
 INSERT INTO subjects (name) VALUES ('Politics'); 
 INSERT INTO subjects (name) VALUES ('Psychology'); 
-
-
-
-INSERT INTO publisher(name, country) VALUES ('PHI', 'India');
-INSERT INTO publisher(name, country) VALUES ('Harper', 'USA');
-INSERT INTO publisher(name, country) VALUES ('GCP', 'USA');
-INSERT INTO publisher(name, country) VALUES ('Avery', 'USA');
-INSERT INTO publisher(name, country) VALUES ('Del Rey', 'UK');
-INSERT INTO publisher(name, country) VALUES ('Vintage', 'UK');
 
 
 
