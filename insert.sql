@@ -9,9 +9,9 @@ INSERT INTO books (id, title, publisher) VALUES (1, 'The C Programming Language'
 INSERT INTO books (id, title, publisher) VALUES (2, 'The Go Programming Language', 1); 
 INSERT INTO books (id, title, publisher) VALUES (3, 'The UNIX Programming Environment', 1); 
 INSERT INTO books (id, title, publisher) VALUES (4, 'Cryptonomicon', 2); 
-INSERT INTO books (id, title, publisher) VALUES (5, 'Dep Work', 3); 
+INSERT INTO books (id, title, publisher) VALUES (5, 'Deep Work', 3); 
 INSERT INTO books (id, title, publisher) VALUES (6, 'Atomic Habits', 4); 
-INSERT INTO books (id, title, publisher) VALUES (7, 'The city and The city', 5); 
+INSERT INTO books (id, title, publisher) VALUES (7, 'The City and The City ', 5); 
 INSERT INTO books (id, title, publisher) VALUES (8, 'The Great War for Civilisation', 6);
 
 INSERT INTO subjects (id, name) VALUES (1, 'C'); 
